@@ -1,31 +1,31 @@
 # weather-temperature-prediction
 A browser-based weather analytics and temperature prediction application using Linear Regression and Random Forest ML models, with interactive dashboards, data visualization, model evaluation, and real-time temperature forecasting.
-# 🌦️ Weather Temperature Prediction
+#  Weather Temperature Prediction
 
 A machine-learning-powered web application for **weather analysis and temperature prediction**. The application processes historical weather observations, performs data validation and feature engineering, trains machine learning models directly in the browser, and provides interactive visualizations and real-time temperature predictions.
 
-## 🚀 Features
+##  Features
 
-* 📊 Interactive weather analytics dashboard
-* 🌡️ Temperature prediction using machine learning
-* 🌲 Random Forest Regression
-* 📈 Linear Regression
-* 🔄 Chronological **80/20 train-test split**
-* 🧹 Automatic data validation and preprocessing
-* 🛠️ Feature engineering and standardization
-* 📉 Model performance evaluation
-* 📌 Feature importance analysis
-* 📊 Residual/error analysis
-* 🌦️ Seasonal weather analysis
-* 📈 Temperature distribution and timeline charts
-* 💧 Temperature vs. humidity analysis
-* 🌬️ Temperature vs. wind speed analysis
-* 🌀 Temperature vs. atmospheric pressure analysis
-* 🖥️ Client-side machine learning execution
-* 📄 Weather prediction reports
-* ⚡ Fast and interactive React interface
+*  Interactive weather analytics dashboard
+*  Temperature prediction using machine learning
+*  Random Forest Regression
+*  Linear Regression
+*  Chronological **80/20 train-test split**
+*  Automatic data validation and preprocessing
+*  Feature engineering and standardization
+*  Model performance evaluation
+*  Feature importance analysis
+*  Residual/error analysis
+*  Seasonal weather analysis
+*  Temperature distribution and timeline charts
+*  Temperature vs. humidity analysis
+*  Temperature vs. wind speed analysis
+*  Temperature vs. atmospheric pressure analysis
+*  Client-side machine learning execution
+*  Weather prediction reports
+*  Fast and interactive React interface
 
-## 🧠 Machine Learning
+##  Machine Learning
 
 The application currently implements two regression models:
 
@@ -46,7 +46,7 @@ The Random Forest implementation includes:
 * Feature importance calculation
 * Ensemble prediction
 
-## 📚 Input Features
+##  Input Features
 
 The prediction pipeline uses the following features:
 
@@ -65,7 +65,7 @@ The prediction pipeline uses the following features:
 
 Season is converted into numerical features using one-hot encoding.
 
-## 🔄 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 ```text
 Historical Weather CSV
@@ -100,7 +100,7 @@ Linear Regression   Random Forest
    Temperature Prediction
 ```
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
 The application evaluates both models using:
 
@@ -111,7 +111,7 @@ The application evaluates both models using:
 
 The test data is kept chronologically after the training data rather than randomly shuffled. This makes the evaluation more representative of a time-based prediction scenario.
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 The application performs several validation checks before training:
 
@@ -128,7 +128,7 @@ The application performs several validation checks before training:
 
 Invalid records are removed and validation warnings are generated.
 
-## 📈 Dashboard
+##  Dashboard
 
 The dashboard provides an overview of the historical weather dataset, including:
 
@@ -152,7 +152,7 @@ The application includes interactive charts for:
 * Temperature vs. wind speed
 * Average temperature by season
 
-## 🔮 Temperature Predictor
+## Temperature Predictor
 
 Users can enter weather conditions such as:
 
@@ -169,7 +169,7 @@ The application then predicts the expected temperature using the selected machin
 
 The prediction also provides an expected temperature range based on the model's RMSE.
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```text
 weather-temperature-prediction/
@@ -228,7 +228,7 @@ weather-temperature-prediction/
 └── README.md
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 
@@ -263,7 +263,7 @@ weather-temperature-prediction/
 * jsPDF
 * html2canvas
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -293,7 +293,7 @@ npm run dev
 
 The application will be available at the local Vite development URL shown in your terminal.
 
-## 🏭 Production Build
+##  Production Build
 
 Create a production build:
 
@@ -313,7 +313,7 @@ Run TypeScript validation:
 npm run lint
 ```
 
-## 📁 Dataset
+##  Dataset
 
 The application reads the weather dataset from:
 
@@ -339,7 +339,7 @@ season
 
 The application validates the required columns before processing the dataset.
 
-## 🔬 Prediction Workflow
+##  Prediction Workflow
 
 When a user requests a prediction:
 
@@ -353,7 +353,7 @@ When a user requests a prediction:
 8. An expected temperature range is calculated using model RMSE.
 9. The result is displayed with a temperature category and model information.
 
-## 🎯 Use Cases
+##  Use Cases
 
 This project can be used for:
 
@@ -366,7 +366,7 @@ This project can be used for:
 * Temperature forecasting experiments
 * Data visualization projects
 
-## ⚠️ Limitations
+##  Limitations
 
 This project is intended primarily for **educational and analytical purposes**.
 
@@ -374,7 +374,7 @@ Prediction accuracy depends heavily on the quality, size, and representativeness
 
 The application should not be considered a replacement for professional meteorological forecasting systems.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Potential improvements include:
 
@@ -391,10 +391,10 @@ Potential improvements include:
 * Improved uncertainty estimation
 * Cloud/server-side model training
 
-## 📜 License
+##  License
 
 This project can be used for educational and personal development purposes. Add an appropriate open-source license such as MIT if you want others to freely reuse and modify the project.
 
 ---
 
-⭐ **If you find this project useful, consider giving the repository a star!**
+ **If you find this project useful, consider giving the repository a star!**
